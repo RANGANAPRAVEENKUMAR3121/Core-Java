@@ -1,15 +1,9 @@
+package com.kumar.interfaces;
 
-public class Parent {
+public interface Parent {
+	
+	float pi = 3.14f;//public static final float pi = 3.14f;
+	
+	void display();//public abstract void display();
 
-	int x ;
-	
-	Parent(){
-		System.out.println("Default Parent Constructor.");
-		
-	}
-	
-	Parent(int x){
-		this();
-		System.out.println("Argument Parent Constructor:");
-	}
 }
