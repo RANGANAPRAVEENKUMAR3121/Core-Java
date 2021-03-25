@@ -1,16 +1,14 @@
+package interfaces;
 
 public class Test {
 
+	int ab =100;
 	public static void main(String[] args) {
-
-		ThreeSeries threeSeries = new ThreeSeries();
-		threeSeries.accelerate();
-		threeSeries.commonFun();
 		
-		FiveSeries fiveSeries = new FiveSeries();
-		fiveSeries.accelerate();
-		fiveSeries.commonFun();
-		
+	//	Honda honda = new Honda(); //parent and child access same memory
+		Car honda = new Honda();
+		honda.go();
+		honda.stop();
 	}
 
 }

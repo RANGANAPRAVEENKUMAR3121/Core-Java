@@ -1,8 +1,7 @@
+package interfaces;
 
-public class Car extends Vehical {
-	
-	//@Override
-	String fuel() {
-		return "Diesel";
-	}
+public interface Car {
+	void go();
+	void stop();
+
 }
