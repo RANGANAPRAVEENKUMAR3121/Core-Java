@@ -1,9 +1,16 @@
-package com.kumar.interfaces;
+package com.kumar.overriding;
 
-public interface Parent {
-	
-	float pi = 3.14f;//public static final float pi = 3.14f;
-	
-	void display();//public abstract void display();
+public class Parent {
 
+	String s = "Kumar";
+	
+	public  static void dosomething() {
+		System.out.println("Parent Class");
+	}
+	
+	public void method() {
+		System.out.println("Parent");
+	}
+
+	
 }
